@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: white;
+    display: grid;
+    grid-template-rows: 0.5fr 2fr 0.8fr 0.5fr;
+    grid-template-areas: "nav"
+                         "illustration"
+                         "text"
+                         "button";
+    min-height: 100vh;
+}
+nav{
+    grid-area: nav;
+    background-color: rgb(4, 186, 186);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav .logo{
+    font-size: 2rem;
+    color: aliceblue;
+}
+nav i{
+    color: aliceblue;
+    font-size: 2rem;
+}
+/* illustration part  */
+.illustration{
+    /* background-color: cadetblue; */
+    grid-area: illustration;
+    background-color: rgb(4, 186, 186);
+    border-radius: 0 0 8% 8%;
+}
+.illustration img{
+    width: 100%;
+}
+/* text secetion  */
+.text{
+    grid-area: text;
+}
+.text h1{
+    color:rgb(26, 113, 113);
+    font-size: 3rem;
+    margin-left: 1rem;
+    font-family: fantasy;
+}
+.text h3{
+    color:rgb(26, 113, 113);
+    margin-left: 1rem;
+    font-family:monospace;
+    font-size: 2rem;
+}
+.text p{
+    margin-left: 1rem;
+    font-family: monospace;
+}
+/* button */
+.button{
+    grid-area: button;
+    /* background-color: chartreuse; */
+    /* height: 70px; */
+}
+.button button{
+    color: white;
+    background-color: rgb(26, 113, 113);
+    padding: 15px 15px;
+    width: 100px;
+    border-radius: 13px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-family: sans-serif;
+    border: none;
+}
