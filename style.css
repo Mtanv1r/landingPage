@@ -23,12 +23,12 @@ nav{
     align-items: center;
 }
 nav .logo{
-    font-size: 2rem;
+    font-size: 5rem;
     color: aliceblue;
 }
 nav i{
     color: aliceblue;
-    font-size: 2rem;
+    font-size: 5rem;
 }
 /* illustration part  */
 .illustration{
@@ -46,7 +46,7 @@ nav i{
 }
 .text h1{
     color:rgb(26, 113, 113);
-    font-size: 3rem;
+    font-size: 5rem;
     margin-left: 1rem;
     font-family: fantasy;
 }
@@ -54,7 +54,7 @@ nav i{
     color:rgb(26, 113, 113);
     margin-left: 1rem;
     font-family:monospace;
-    font-size: 2rem;
+    font-size: 5rem;
 }
 .text p{
     margin-left: 1rem;
